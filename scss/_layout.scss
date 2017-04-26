@@ -1,0 +1,40 @@
+/**
+ * ORBIT SLIDES LAYOUT
+ *
+ */
+.orbit-slide .media-object {
+	display: table;
+	margin-bottom: 0;
+}
+
+.orbit-slide .media-object .vertical-middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.orbit-slide .media-object .media-object-section:last-child {
+    padding-top: 50px;
+}
+
+.orbit-slide:last-child .media-object .media-object-section:last-child {
+	padding-bottom: 40px;
+}
+
+// AUTO HEIGHT FOR ORBIT SLIDES
+ul.orbit-container {
+    height: auto !important;
+}
+
+li.orbit-slide {
+    max-height: none !important;
+}
+
+// ADD TOP AND BOTTOM PADDING TO MAIN CONTENT AREA
+.main-content {
+	padding-top: 2rem;
+	padding-bottom: 3.25rem;
+}
+
+.section {
+	margin-bottom: 2.25rem;
+}
