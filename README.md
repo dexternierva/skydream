@@ -9,4 +9,4 @@ SkyDream is a perfect Responsive Website Template for your business, a creative 
 
 
 Screenshot
-https://cloud.githubusercontent.com/assets/4121265/25488065/9ea855de-2b98-11e7-8815-86b1a54beada.png
+![Screenshot](https://cloud.githubusercontent.com/assets/4121265/25488065/9ea855de-2b98-11e7-8815-86b1a54beada.png "SkyDream")
