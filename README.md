@@ -7,5 +7,3 @@ SkyDream is a perfect Responsive Website Template for your business, a creative 
 **For the PSD visit this page:**
 <https://themeforest.net/item/skydream-premium-psd-template/3092976>
 
-Screenshot:
-![Alt text](https://github.com/dexternierva/skydream/skydream.png "SkyDream")
