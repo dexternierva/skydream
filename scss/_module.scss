@@ -489,6 +489,139 @@
 }
 
 /**
+ * PAGE HEADERS
+ * WITH BREADCRUMBS
+ *
+ */
+.page-header {
+	border-top: 4px solid #fcfcfc;
+	border-bottom: 4px solid #fcfcfc;
+}
+
+.page-header__inner {
+	background: url(../img/template/hero-bg.jpg);
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.page-header__content {
+	position: relative;
+    padding: 2.125rem 0 1.5rem 0;
+    overflow: auto;
+}
+
+.breadcrumbs {
+	height: 24px;
+    line-height: 24px;
+    padding-left: 1.5rem;
+    background: url(../img/template/breadcrumbs.png) no-repeat center left;
+
+	@include breakpoint(medium) {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
+	}
+}
+
+.breadcrumbs li {
+	text-transform: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    position: relative;
+    top: 0px;
+    margin: 0 .3rem 0 .125rem;
+    opacity: 1;
+    content: "/";
+    color: #cacaca;
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited,
+.breadcrumbs a:active {
+	color: #737373;
+	font-size: .6875rem;
+}
+.breadcrumbs a:hover {
+	color: #f75016;
+	text-decoration: none;
+}
+
+/**
+ * PROJECTS FILTER
+ *
+ */
+.filter {
+	padding-left: 3.25rem;
+	background: url(../img/template/filter.png) no-repeat 0 50%;
+	list-style-type: none;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 0 4px;
+	border-right: 1px solid #e7e7e7;
+}
+
+.filter li:last-child {
+	border-right: 0;
+}
+
+.filter li button {
+	padding: 6px 8px;
+	color: #797979;
+	cursor: pointer;
+}
+
+.filter li button:hover,
+.filter li .mixitup-control-active {
+	background: #f75016;
+	border-radius: 2px;
+	color: #fff;
+	text-decoration: none;
+}
+
+/**
+ * PROJECT GALLERY
+ *
+ */
+.gallery {
+	margin-top: 2.25rem;
+	list-style-type: none;
+}
+
+.gallery__item {
+	margin-bottom: 1.875rem;
+}
+
+.gallery figcaption {
+	padding-bottom: 0.875rem;
+    background: url(../img/template/section-border.png) repeat-x bottom;
+	text-align: center;
+}
+
+.gallery figcaption p {
+	margin-bottom: .25rem;
+}
+
+.gallery figcaption h2 + p {
+	color: #a3a3a3;
+}
+
+.gallery figcaption a:link,
+.gallery figcaption a:visited,
+.gallery figcaption a:active {
+	color: #404040;
+}
+
+.gallery figcaption a:hover {
+	color: #f75016;
+	text-decoration: none;
+}
+
+/**
  * FOOTER
  *
  */

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SkyDream</title>
+	<link rel="stylesheet" href="fontawesome/font-awesome.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+	<div class="title-bar hide-for-large">
+		<div class="title-bar-left">
+			<button class="menu-icon" type="button" data-open="offCanvasNav"></button>
+			<span class="title-bar-title">SkyDream</span>
+		</div><!-- // .title-bar-left -->
+	</div><!-- // .title-bar -->
+
+	<!-- OFF-CANVAS NAVIGATION -->
+	<div class="off-canvas position-left" id="offCanvasNav" data-off-canvas>
+		<button class="close-button" aria-label="Close menu" type="button" data-close>
+			<span aria-hidden="true">&times;</span>
+		</button>
+
+		<ul class="vertical menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="projects.html">Our Projects</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div><!-- // .off-canvas -->
+
+	<div class="off-canvas-content" data-off-canvas-content>
+		<!-- MAIN HEADER -->
+		<header class="header show-for-large">
+			<div class="row column">
+				<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+					<button class="menu-icon" type="button" data-toggle="main-menu"></button>
+					<div class="title-bar-title">Menu</div>
+				</div>
+
+				<div class="top-bar" id="main-menu">
+					<div class="top-bar-left">
+						<a href="index.html"><img src="img/template/logo.png" alt="SkyDream"></a>
+					</div><!-- // .top-bar-left -->
+
+					<div class="top-bar-right">
+						<ul class="menu">
+							<li><a href="index.html">Home <span>start here</span></a></li>
+							<li class="current"><a href="projects.html">Our Projects <span>result of our work</span></a></li>
+							<li><a href="#">Features <span>all different pages</span></a></li>
+							<li><a href="#">Blog <span>what we think</span></a></li>
+							<li><a href="#">Contact Us <span>keep in touch</span></a></li>
+						</ul>
+					</div><!-- // .top-bar-right -->
+				</div><!-- // .top-bar -->
+			</div><!-- // .row -->
+		</header>
+
+		<!-- PAGE HEADER -->
+		<header class="page-header">
+			<div class="page-header__inner">
+				<div class="row column">
+					<div class="page-header__content">
+						<h2>Portfolio</h2>
+						<ul class="breadcrumbs">
+							<li class="breadcrumbs__item"><a href="index.html">Home</a></li>
+							<li class="breadcrumbs__item"><a href="projects.html">Our Projects</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- MAIN-CONTENT -->
+		<main class="main-content" role="main">
+			<div class="row column">
+				<ul class="filter">
+					<li><button data-filter="all">All</button></li>
+					<li><button data-filter=".category-a">Web Design</button></li>
+					<li><button data-filter=".category-b">Branding</button></li>
+					<li><button data-filter=".category-c">Video</button></li>
+				</ul>
+			</div><!-- // .row.column -->
+
+			<ul class="gallery container row small-up-1 medium-up-2 large-up-3">
+				<li class="gallery__item column mix category-a">
+					<figure>
+						<a href="img/photo/project-full.png" data-lightbox="image-1"><img class="thumbnail" src="img/photo/project-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Web Design</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-b">
+					<figure>
+						<a href="img/photo/project2-full.png" data-lightbox="image-2"><img class="thumbnail" src="img/photo/project2-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Branding</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-c">
+					<figure>
+						<a href="img/photo/project3-full.png" data-lightbox="image-3"><img class="thumbnail" src="img/photo/project3-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Video</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-a">
+					<figure>
+						<a href="img/photo/project4-full.png" data-lightbox="image-1"><img class="thumbnail" src="img/photo/project4-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Web Design</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-b">
+					<figure>
+						<a href="img/photo/project5-full.png" data-lightbox="image-2"><img class="thumbnail" src="img/photo/project5-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Branding</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-c">
+					<figure>
+						<a href="img/photo/project6-full.png" data-lightbox="image-3"><img class="thumbnail" src="img/photo/project6-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Video</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-a">
+					<figure>
+						<a href="img/photo/project7-full.png" data-lightbox="image-1"><img class="thumbnail" src="img/photo/project7-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Web Design</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-b">
+					<figure>
+						<a href="img/photo/project8-full.png" data-lightbox="image-2"><img class="thumbnail" src="img/photo/project8-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Branding</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-c">
+					<figure>
+						<a href="img/photo/project9-full.png" data-lightbox="image-3"><img class="thumbnail" src="img/photo/project9-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Video</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-a">
+					<figure>
+						<a href="img/photo/project10-full.png" data-lightbox="image-1"><img class="thumbnail" src="img/photo/project10-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Web Design</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-b">
+					<figure>
+						<a href="img/photo/project11-full.png" data-lightbox="image-2"><img class="thumbnail" src="img/photo/project11-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Branding</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="gallery__item column mix category-c">
+					<figure>
+						<a href="img/photo/project12-full.png" data-lightbox="image-3"><img class="thumbnail" src="img/photo/project12-tn.png" alt="Project Thumbnail"></a>
+						<figcaption>
+							<h2 class="heading-5"><a href="#">Perspiciatis unde omnis.</a></h2>
+							<p>Video</p>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</main>
+
+		<section class="site-info">
+			<div class="row">
+				<div class="small-12 medium-6 large-3 columns">
+					<section class="site-info__about section">
+						<h4 class="heading-5">About Us</h4>
+						<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p class="address">
+							<span>Address: Street 1565, Paris 145, France</span>
+							<span>Telephone: +8 589 154 21 98</span>
+							<span>Fax: +8 589 541 26 32</span>
+						</p>
+						<ul class="social-icons">
+			                <li><a href="#" target="_blank" class="twitter">Twitter</a></li>
+			                <li><a href="#" target="_blank" class="facebook">Facebook</a></li>
+			                <li><a href="#" target="_blank" class="pinterest">Pinterest</a></li>
+			                <li><a href="#" target="_blank" class="vimeo">Vimeo</a></li>
+			                <li><a href="#" target="_blank" class="rss">RSS Feed</a></li>
+			                <li><a href="#" target="_blank" class="flickr">Flickr</a></li>
+			            </ul>
+					</section>
+				</div><!-- // .columns -->
+				<div class="small-12 medium-6 large-3 columns">
+					<section class="site-info__recent-posts section">
+						<h4 class="heading-5">Recent Posts</h4>
+						<ul class="recent-posts">
+							<li><a href="#">Perspiciatis unde omnis iste natus.</a></li>
+							<li><a href="#">Sit voluptatem accusantium dolore.</a></li>
+							<li><a href="#">Laudantium, totam rem aperiam, eaque ipsa quae ab illo.</a></li>
+							<li><a href="#">Quasi architecto beatae vitae dicta.</a></li>
+						</ul>
+					</section>
+				</div><!-- // .columns -->
+				<div class="small-12 medium-6 large-3 columns">
+					<section class="site-info__twitter section">
+						<h4 class="heading-5">Latest Tweets</h4>
+						<ul class="latest-tweets">
+		                    <li>
+		                        <p>Check out this great <a href="#">#themeforest item</a> BeautyMind - Responsive and Clean WordPress</p>
+		                        <p><i class="fa fa-twitter" aria-hidden="true"></i><i> about 12 hours ago</i></p>
+		                    </li>
+		                    <li>
+		                        <p>Check out this great <a href="#">#themeforest item</a> 'Clean Creative: Clean, Minimal Website <a href="#">http://themeforest.net/item/clean-website-template/651690…</a></p>
+		                        <p><i class="fa fa-twitter" aria-hidden="true"></i> <i>about 16 hours ago</i></p>
+		                    </li>
+		                </ul>
+					</section>
+				</div><!-- // .column -->
+				<div class="small-12 medium-6 large-3 columns">
+					<section class="site-info__flickr">
+						<h4 class="heading-5">Flickr Stream</h4>
+						<ul class="flickr-list">
+		                    <li><a href="#"><img src="img/photo/flickr-1.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-2.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-3.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-4.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-5.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-6.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-7.png" alt="Flckr"></a></li>
+		                    <li><a href="#"><img src="img/photo/flickr-8.png" alt="Flckr"></a></li>
+		                </ul>
+					</section>
+				</div><!-- // .column -->
+			</div><!-- // .row -->
+		</section><!-- // .site-info -->
+
+		<footer class="footer">
+			<div class="row">
+				<div class="small-12 medium-6 columns">
+					<p>Copyright &copy; 2012 WebVision. All rights reserved.</p>
+				</div>
+				<div class="small-12 medium-6 columns">
+					<ul>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Terms of use</a></li>
+						<li><a href="#">Privacy policy</a></li>
+					</ul>
+				</div>
+			</div><!-- // .row -->
+		</footer>
+	</div><!-- // .off-canvas-content -->
+
+	<!-- HERE COMES JAVASCRIPT -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/what-input/dist/what-input.js"></script>
+	<script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+	<script src="bower_components/foundation-sites/dist/js/lightbox.min.js"></script>
+	<script src="bower_components/foundation-sites/dist/js/mixitup.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
