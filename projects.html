@@ -47,10 +47,34 @@
 					</div><!-- // .top-bar-left -->
 
 					<div class="top-bar-right">
-						<ul class="menu">
+						<ul class="dropdown menu" data-dropdown-menu>
 							<li><a href="index.html">Home <span>start here</span></a></li>
 							<li class="current"><a href="projects.html">Our Projects <span>result of our work</span></a></li>
-							<li><a href="#">Features <span>all different pages</span></a></li>
+							<li>
+								<a href="#">Features <span>all different pages</span></a>
+								<ul class="menu">
+									<li>
+										<a href="#">Pages</a>
+										<ul class="menu">
+											<li><a href="#">About</a></li>
+											<li><a href="#">Services</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Elements</a>
+										<ul class="menu">
+											<li><a href="accordions.html">Accordions</a></li>
+											<li><a href="#">Alert Messages</a></li>
+											<li><a href="#">Buttons</a></li>
+											<li><a href="#">Tabs</a></li>
+											<li><a href="#">Tables</a></li>
+											<li><a href="#">Testimonials</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Typography</a></li>
+									<li><a href="#">Columns</a></li>
+								</ul>
+							</li>
 							<li><a href="#">Blog <span>what we think</span></a></li>
 							<li><a href="#">Contact Us <span>keep in touch</span></a></li>
 						</ul>
@@ -75,7 +99,7 @@
 		</header>
 
 		<!-- MAIN-CONTENT -->
-		<main class="main-content" role="main">
+		<main class="main" role="main">
 			<div class="row column">
 				<ul class="filter">
 					<li><button data-filter="all">All</button></li>
@@ -297,5 +321,13 @@
 	<script src="bower_components/foundation-sites/dist/js/lightbox.min.js"></script>
 	<script src="bower_components/foundation-sites/dist/js/mixitup.min.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+		(function () {
+
+			// INSTANTIATE MIXITUP FILTER FOR PROJECTS PAGE
+			var mixer = mixitup('.container');
+
+		}()); // IIFE
+	</script>
 </body>
 </html>

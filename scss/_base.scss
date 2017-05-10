@@ -97,7 +97,13 @@ ol {
 	margin: 0;
 }
 
-// FORM PLACEHOLDERS
+// FORMS
+input[type="text"],
+input[type="email"],
+textarea {
+	font-size: 0.75rem; /* 14 */
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	font-size: 0.75rem;
 }
