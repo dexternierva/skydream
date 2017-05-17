@@ -117,46 +117,11 @@ textarea {
   	font-size: 0.75rem;
 }
 
-/**
- * GLOBAL STYLES
- *
- */
-
-/* BUTTONS */
-a.button:link,
-a.button:visited,
-a.button:active,
-.button {
-	padding: 0;
-	background: #f76433;
-	background: -moz-linear-gradient(top, #f76433 0%, #f54e16 100%);
-	background: -webkit-linear-gradient(top, #f76433 0%, #f54e16 100%);
-	background: linear-gradient(to bottom, #f76433 0%, #f54e16 100%);
-	border-color: #f54e16;
-	border-radius: 4px;
-	color: #fff;
-	font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
-	font-weight: 700;
-	font-size: 0.75rem;
+/* DEFINITION LIST */
+dl dt {
+	font-family: Arial;
 	text-transform: uppercase;
-	text-shadow: 1px 0px 1px rgba(0, 0, 0, .5);
-	transition: none;
-}
-
-a.button:hover,
-.button:hover {
-	background: #f54e16;
-	text-decoration: none;
-}
-
-a.button span {
-	display: block;
-	padding: .5rem 1rem .625rem;
-	border-top: 1px solid #f87e55;
-}
-
-/* BUTTON WITH AN ARROW ON THE RIGHT */
-a.button--primary span {
-	padding-right: 1.8rem;
-    background: url(../img/template/read-more-arrow.png) no-repeat 90% 40%;
+	font-weight: 600;
+	font-size: .625rem;
+	color: #696969;
 }
