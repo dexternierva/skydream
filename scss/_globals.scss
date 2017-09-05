@@ -1,0 +1,131 @@
+/**
+* BUTTONS
+*
+*/
+a.button:link,
+a.button:visited,
+a.button:active,
+.button,
+.button-small {
+	padding: 0;
+	background: #f76433;
+	background: -moz-linear-gradient(top, #f76433 0%, #f54e16 100%);
+	background: -webkit-linear-gradient(top, #f76433 0%, #f54e16 100%);
+	background: linear-gradient(to bottom, #f76433 0%, #f54e16 100%);
+	border-color: #f54e16;
+	border-radius: 4px;
+	color: #fff;
+	font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+	font-weight: 700;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	text-shadow: 1px 0px 1px rgba(0, 0, 0, .5);
+	transition: none;
+}
+
+a.button:hover,
+.button:hover {
+	background: #f54e16;
+	text-decoration: none;
+}
+
+a.button span {
+	display: block;
+	padding: .5rem 1rem .625rem;
+	border-top: 1px solid #f87e55;
+}
+
+/* BUTTON WITH AN ARROW ON THE RIGHT */
+a.button--primary span {
+	padding-right: 1.8rem;
+	background: url(../img/template/read-more-arrow.png) no-repeat 90% 40%;
+}
+
+// LISTS WITH BULLETS
+.with-bullets > li {
+	padding: 2px 0;
+	padding-left: 1rem;
+	background: url(../img/template/bullets.png) no-repeat 0 45%;
+}
+
+// LISTS WITH CIRCLE ORANGE ARROW BULLETS
+.arrow-bullets {
+	margin-bottom: 1rem;
+}
+
+.arrow-bullets li:first-child {
+	margin-bottom: .5rem;
+}
+
+.arrow-bullets li .fa {
+    color: #f75016;
+}
+
+// SMALL BUTTONS
+a.button-small {
+	color: #fff;
+	padding: 4px 10px;
+}
+
+/**
+ * TABS
+ *
+ */
+.tabs {
+	margin-top: 2rem;
+	border: 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.tabs-content {
+    border: 0;
+}
+
+.tabs-panel {
+	padding: 1.625rem 0 0 0;
+}
+
+.tabs-title {
+	border: 1px solid #e8e8e8;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.tabs-title:last-child {
+	border-right: 1px solid #e8e8e8;
+}
+
+.tabs-title > a:link,
+.tabs-title > a:active,
+.tabs-title > a:visited {
+	padding: .75rem 1.75rem;
+	border-top: 1px solid #fff;
+	color: #888;
+	// GRADIENT BACKGROUND
+	background: #fafafa; /* Old browsers */
+	background: -moz-linear-gradient(top, #fafafa 1%, #f3f3f3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fafafa 1%,#f3f3f3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fafafa 1%,#f3f3f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+}
+
+.tabs-title > a:hover {
+	text-decoration: none;
+}
+
+.tabs-title > a[aria-selected='true'] {
+	background: #fff;
+	color: #404040;
+}
+
+.tab-content__header {
+	font-weight: 500;
+	font-size: 1.375rem;
+}
+
+.tab-content__subheader {
+	color: #a6a6a6;
+	font-size: 0.6875rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
